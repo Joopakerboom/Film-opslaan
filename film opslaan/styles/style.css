@@ -222,10 +222,26 @@ section div:nth-of-type(2)>div {
 /*BLUR EFFECT OVER MOVIE SECTION*/
 
 @keyframes addedtolistbluranimation {
-    0%   {filter: blur(0rem);}
-    25%  {filter: blur(0.8rem);}
-    50%  {filter: blur(0.8rem);}
-    100%  {filter: blur(0rem);}
+    0%   {-webkit-filter: blur(0rem);
+          -moz-filter: blur(0rem);
+          -o-filter: blur(0rem);
+          -ms-filter: blur(0rem);
+          filter: blur(0rem);}
+    25%  {-webkit-filter: blur(0.8rem);
+          -moz-filter: blur(0.8rem);
+          -o-filter: blur(0.8rem);
+          -ms-filter: blur(0.8rem); 
+          filter: blur(0.8rem);}
+    50%  {-webkit-filter: blur(0.8rem);
+          -moz-filter: blur(0.8rem);
+          -o-filter: blur(0.8rem);
+          -ms-filter: blur(0.8rem);
+          filter: blur(0.8rem);}
+    100% {-webkit-filter: blur(0rem);
+          -moz-filter: blur(0rem);
+          -o-filter: blur(0rem);
+          -ms-filter: blur(0rem); 
+          filter: blur(0rem);}
 }
 
 @keyframes addedtolistconfirmanimation {
@@ -262,7 +278,7 @@ section div:nth-of-type(1)>h2, section div:nth-of-type(2)>div>h2 {
 section>div:nth-of-type(1)>h2 {
     background-image: url(../images/addedcheck.svg);
     background-repeat: no-repeat;
-    background-position: 30% 75%;
+    background-position: 6.5rem 2.7rem;
     background-size: 2rem;
 }
 
@@ -305,6 +321,10 @@ button:focus {
     outline:0;
 }
 
+header li:nth-of-type(2).activewatchlist {
+    background-image: url(../images/Watchlistactive.svg);
+}
+
 main.yourwatchlist section:nth-of-type(1)>div {
     position: absolute;
     bottom: 2rem;
@@ -318,6 +338,13 @@ main.yourwatchlist section:nth-of-type(1)>div h1, main.yourwatchlist section:nth
     color: #344551;
 }
 
+main.yourwatchlist section:nth-of-type(1)>div h1 {
+    background-image: url(../images/Watchlist.svg);
+    background-repeat: no-repeat;
+    background-size: 2rem;
+    background-position: 9rem 0.4rem;
+}
+
 main.yourwatchlist section:nth-of-type(1)>div p {
    margin-top: 0rem; 
     font-size: 1.5rem;
@@ -329,4 +356,36 @@ main.yourwatchlist section:nth-of-type(1)::after {
     background: none;
     width: 0;
     height: 0;
+}
+
+main.yourwatchlist section button {
+    position: absolute;
+    right: 0.5rem;
+    top: 1.5rem;
+    background-image: url(../images/addedtolist.svg);
+    font-size: 2rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    color: transparent;
+    border: none;
+    z-index: 20;
+    transition-delay: 2s;
+}
+
+/*REMOVE FROM WATCHLIST*/
+
+@keyframes removefromlistanimation {
+    0%   {opacity: 1; margin-top: 0;}
+    25%  {opacity: 0;}
+    50%  {opacity: 0;}
+    100%  {opacity: 0; margin-top: -31vh;}
+}
+
+main.yourwatchlist section:nth-of-type(2).removefromlistanimation {
+    animation-name: removefromlistanimation;
+    animation-delay: 0.5s;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
 }
