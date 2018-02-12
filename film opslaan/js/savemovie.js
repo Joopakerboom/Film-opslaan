@@ -23,7 +23,7 @@ var listAdd = function () {
 }, 2000);
     
     document.getElementById("addedremoved").innerHTML = "Added to your list";
-    document.getElementById("addedremoved").style.backgroundImage="url(../images/addedcheck.svg)";
+    document.getElementById("addedremoved").style.backgroundImage = "url(images/addedcheck.svg)";
     
     addedToListNumber.classList.remove('removedfromlistanimation');
     addedToListNumber.classList.add('addedtolistanimation');
@@ -48,7 +48,7 @@ var listRemove = function () {
 }, 2000);
    
     document.getElementById("addedremoved").innerHTML = "Removed from your list";
-    document.getElementById("addedremoved").style.backgroundImage='none';
+    document.getElementById("addedremoved").style.backgroundImage = 'none';
     
     addedToListNumber.classList.remove('addedtolistanimation');
     addedToListNumber.classList.add('removedfromlistanimation');

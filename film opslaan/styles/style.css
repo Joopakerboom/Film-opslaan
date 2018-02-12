@@ -275,7 +275,7 @@ section div:nth-of-type(1)>h2, section div:nth-of-type(2)>div>h2 {
     padding-right: 2rem;
 }
 
-section>div:nth-of-type(1)>h2 {
+section:nth-of-type(1)>div:nth-of-type(1)>h2 {
     background-image: url(../images/addedcheck.svg);
     background-repeat: no-repeat;
     background-position: 6.5rem 2.7rem;
@@ -303,7 +303,7 @@ section>div:nth-of-type(2) button {
 
 section>div:nth-of-type(2) button#removefromlistbutton {
     position: absolute;
-    right: 0.5rem;
+    right: 0rem;
     top: 1.5rem;
     background-image: url(../images/addedtolist.svg);
     font-size: 2rem;
