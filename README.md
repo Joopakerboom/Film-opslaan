@@ -9,3 +9,6 @@ BlaBlaBla
 
 # 3e test (https://joopakerboom.github.io/Film-opslaan/filmopslaantest03/)
 BlaBlaBla
+
+# Verbeterd ontwerp (https://joopakerboom.github.io/Film-opslaan/filmopslaanversie01/)
+BlaBlaBla
