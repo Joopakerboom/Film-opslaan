@@ -28,7 +28,7 @@ Test persoon: Damayanti Blankestijn - Maandag 12 februari
 
 4. Op de watchlist pagina vond Dami het aantrekkelijk om te zien hoe het werkte en helemaal volgens haar mental model. Damayanti gaf aan dat ze er van uit ging dat als ze op de Watchlist pagina een film verwijderde dat deze ook in zijn geheel verdween. Dat deed het ook. Ze zou het raar vinden als deze bleef staan. De overgang van het verwijderen van een film ging voor haar gevoel nog erg traag.
 
-# Verbeterd ontwerp (https://joopakerboom.github.io/Film-opslaan/filmopslaanversie01/)
+# Verbeterd ontwerp (https://joopakerboom.github.io/Film-opslaan/filmopslaantestversie01/)
 1. De toolbar en de bijbehoorde animatie van het toevoegen aan de watchlist valt beter op als deze bovenaan staat, in plaats van onderaan. 
 2. Het toevoeg en verwijder icoon van test 1 en 3 had een duidelijke feed forward en visuele uitstraling/ hierarchie.
 3. Het blur effect met de bijbehoorende melding dat de film is toegevoegd aan de lijst, was het meest natuurlijk, duidelijk en overzichtelijk. Dit in combinatie met de duidelijke confirmatie tekst en het gele vinkje als de film is toegevoegd.
