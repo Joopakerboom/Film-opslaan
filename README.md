@@ -56,3 +56,5 @@ Als ik een lijst films heb gevonden, wil ik de leuke films opslaan om thuis...
 2.
 3.
 4.
+> Touch-event
+uitleg over wat het event doet en hoe dat werkt ... Maak het niet te groot. Vertel wat het 'event' doet, en laat zien wat je hebt geprobeerd.
